@@ -88,8 +88,7 @@ console.log('question 7', find(4, [2, 4, 6]));
 function isFirstLetter(letter, string) {
 
   for (i = 0; i < string.length; i++) {
-    let array = [];
-    if (letter = string[0]) {
+    if (string[0] === letter) {
       return true;
     }
     else {
