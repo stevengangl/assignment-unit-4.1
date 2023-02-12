@@ -72,10 +72,11 @@ function find(value, array) {
     if (value === array[i]) {
       return true;
     }
-    return false
   }
+  return false;
+
 }
-console.log('question 7', find(9, [2, 4, 6]));
+console.log('question 7', find(4, [2, 4, 6]));
 
 // ----------------------
 
